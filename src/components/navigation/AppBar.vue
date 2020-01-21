@@ -1,8 +1,9 @@
 <template>
     <v-app-bar
           app
+          fixed
           clipped-left
-          dark="true"
+          hide-on-scroll
         >
         <a
         href="/"
@@ -13,13 +14,13 @@
                 Sean Kelly
             </h1>
         </a>
-<!--The following gives you the little hamburger info icon (3 lines)-->
-        <!--        <v-app-bar-nav-icon>-->
-
-<!--        </v-app-bar-nav-icon>-->
-
-          <v-spacer></v-spacer>
-
+        <v-spacer></v-spacer>
+        <v-btn
+                href="mailto:sgkelly@edu.uwaterloo.ca"
+                icon
+        >
+            <v-icon size="16px">mdi-email-outline</v-icon>
+        </v-btn>
         <v-btn
                 href="https://github.com/seangerrykelly"
                 icon
@@ -27,8 +28,8 @@
             <font-awesome-icon :icon="gitHubIcon"></font-awesome-icon>
         </v-btn>
         <v-btn
-            href="https://linkedin.com/in/seangerrykelly"
-            icon
+                href="https://linkedin.com/in/seangerrykelly"
+                icon
         >
             <font-awesome-icon :icon="linkedInIcon"></font-awesome-icon>
         </v-btn>

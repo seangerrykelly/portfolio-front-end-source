@@ -4,10 +4,10 @@ import vuetify from './plugins/vuetify';
 import router from './router'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLinkedin, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faLinkedin, faLinkedinIn, faGithub)
+library.add( faLinkedinIn, faGithub)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
