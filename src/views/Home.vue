@@ -1,17 +1,20 @@
 <template>
   <v-content>
     <v-layout></v-layout>
-    <HelloWorld></HelloWorld>
+    <v-card flat>
+      <v-card-title>
+        <b>COMING SOON</b>
+        <v-spacer></v-spacer>
+      </v-card-title>
+    </v-card>
   </v-content>
 </template>
 
 <script>
 
-  import HelloWorld from "@/components/HelloWorld";
 export default {
   name: 'home',
   components: {
-    HelloWorld
   }
 }
 </script>

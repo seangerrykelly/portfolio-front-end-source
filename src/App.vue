@@ -2,8 +2,6 @@
   <div id="app">
     <NavDrawer></NavDrawer>
     <AppBar></AppBar>
-<!--    <div id="nav">-->
-<!--    </div>-->
     <router-view/>
   </div>
 </template>

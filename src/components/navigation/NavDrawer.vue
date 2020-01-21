@@ -29,7 +29,7 @@
                 pages: [
                     {
                         name: 'Home',
-                        to: '/',
+                        to: '/home',
                         iconName: 'mdi-home'
                     },
                     {
@@ -39,7 +39,7 @@
                     },
                     {
                         name: 'Resume',
-                        to: '/resume',
+                        to: '/',
                         iconName: 'mdi-file-document-box'
                     },
                     {
