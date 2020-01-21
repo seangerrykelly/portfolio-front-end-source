@@ -4,9 +4,15 @@
           clipped-left
           dark="true"
         >
-          <div class="d-flex align-center">
-            <span class="mr-2">Sean Kelly</span>
-          </div>
+        <a
+        href="/"
+        style="text-decoration: none;
+                color:#000000"
+        >
+            <h1 class="display-2 font-weight-bold mb-3">
+                Sean Kelly
+            </h1>
+        </a>
 <!--The following gives you the little hamburger info icon (3 lines)-->
         <!--        <v-app-bar-nav-icon>-->
 
@@ -14,20 +20,37 @@
 
           <v-spacer></v-spacer>
 
-          <v-btn
+        <v-btn
+                href="https://github.com/seangerrykelly"
+                icon
+        >
+            <font-awesome-icon :icon="gitHubIcon"></font-awesome-icon>
+        </v-btn>
+        <v-btn
             href="https://linkedin.com/in/seangerrykelly"
-            target="_blank"
-            text
-          >
-            <span class="mr-2">LinkedIn</span>
-            <v-icon>mdi-open-in-new</v-icon>
-          </v-btn>
+            icon
+        >
+            <font-awesome-icon :icon="linkedInIcon"></font-awesome-icon>
+        </v-btn>
     </v-app-bar>
 </template>
 
 <script>
     export default {
-        name: "AppBar"
+        name: "AppBar",
+        computed: {
+            gitHubIcon() {
+                return ['fab', 'github']
+            },
+            linkedInIcon() {
+                return ['fab', 'linkedin-in']
+            }
+        },
+        data : function() {
+            return {
+
+            }
+        },
     }
 </script>
 

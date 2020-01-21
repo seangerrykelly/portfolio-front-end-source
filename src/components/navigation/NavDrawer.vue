@@ -26,28 +26,28 @@
         name: "NavDrawer",
         data : function () {
             return {
-            pages: [
-                {
-                    name: 'Home',
-                    to: '/',
-                    iconName: 'mdi-home'
-                },
-                {
-                    name: 'About Me',
-                    to: '/about',
-                    iconName: 'mdi-account'
-                },
-                {
-                    name: 'Resume',
-                    to: '/resume',
-                    iconName: 'mdi-file-document-box'
-                },
-                {
-                    name: "Contact",
-                    to: '/contact',
-                    iconName: 'mdi-chat'
-                }
-            ],
+                pages: [
+                    {
+                        name: 'Home',
+                        to: '/',
+                        iconName: 'mdi-home'
+                    },
+                    {
+                        name: 'About Me',
+                        to: '/about',
+                        iconName: 'mdi-account'
+                    },
+                    {
+                        name: 'Resume',
+                        to: '/resume',
+                        iconName: 'mdi-file-document-box'
+                    },
+                    {
+                        name: "Contact",
+                        to: '/contact',
+                        iconName: 'mdi-chat'
+                    }
+                ],
             }
         }
     }
