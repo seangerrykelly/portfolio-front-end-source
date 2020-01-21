@@ -2,29 +2,15 @@
     <v-app-bar
           app
           clipped-left
-          color="#1E88E5"
           dark="true"
         >
           <div class="d-flex align-center">
             <span class="mr-2">Sean Kelly</span>
           </div>
-        <v-app-bar-nav-icon>
+<!--The following gives you the little hamburger info icon (3 lines)-->
+        <!--        <v-app-bar-nav-icon>-->
 
-        </v-app-bar-nav-icon>
-
-        <v-tabs
-                background-color="#1E88E5">
-            <v-tab
-                to="/"
-            >
-                Home
-            </v-tab>
-            <v-tab
-            to="/About"
-            >
-                About Me
-            </v-tab>
-        </v-tabs>
+<!--        </v-app-bar-nav-icon>-->
 
           <v-spacer></v-spacer>
 
