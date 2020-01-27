@@ -3,6 +3,7 @@
         app
         clipped
         expand-on-hover
+        permanent
     >
         <v-list>
             <v-list-item
@@ -22,21 +23,30 @@
 </template>
 
 <script>
+
     export default {
         name: "NavDrawer",
+        computed: {
+            isMobile : function() {
+                return !(window.width <= 760);
+            },
+        },
         data : function () {
             return {
+                // components: {
+                //     Slide
+                // },
                 pages: [
-                    {
-                        name: 'Home',
-                        to: '/home',
-                        iconName: 'mdi-home'
-                    },
-                    {
-                        name: 'About Me',
-                        to: '/about',
-                        iconName: 'mdi-account'
-                    },
+                    // {
+                    //     name: 'Home',
+                    //     to: '/',
+                    //     iconName: 'mdi-home'
+                    // },
+                    // {
+                    //     name: 'About Me',
+                    //     to: '/about',
+                    //     iconName: 'mdi-account'
+                    // },
                     {
                         name: 'Resume',
                         to: '/',

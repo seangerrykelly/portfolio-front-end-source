@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import * as VeeValidate from 'vee-validate'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import router from './router'
@@ -12,6 +13,7 @@ library.add( faLinkedinIn, faGithub)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
+Vue.use(VeeValidate);
 
 new Vue({
   vuetify,

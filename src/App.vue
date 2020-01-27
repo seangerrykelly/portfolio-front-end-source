@@ -35,6 +35,16 @@
     components: {
       AppBar,
       NavDrawer
+    },
+    data : function() {
+      return {
+        isDarkModeEnabled : false,
+      }
+      },
+    methods: {
+      toggleDarkMode() {
+        this.isDarkModeEnabled = !this.isDarkModeEnabled;
+      }
     }
   }
 </script>
