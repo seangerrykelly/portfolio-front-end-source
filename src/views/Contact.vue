@@ -16,7 +16,7 @@
                                     v-model="contact.name"
                                     outlined
                                     label="Name"
-                                    name="_subject"
+                                    name="Name"
                                 >
                                 </v-text-field>
                         </v-row>
@@ -50,6 +50,7 @@
                                     value="Send"
                             >
                                 Submit</v-btn>
+                            <input type="hidden" name="_next" value="/contact"/>
                         </v-row>
                         <v-row>
                             <v-list v-if="errors.length">
