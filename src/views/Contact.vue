@@ -3,7 +3,7 @@
         <v-layout></v-layout>
         <form
             ref="form"
-            action="http://formspree.io/sgkelly@edu.uwaterloo.ca"
+            action="https://formspree.io/sgkelly@edu.uwaterloo.ca"
             method="POST"
             @submit="onSubmit"
         >
