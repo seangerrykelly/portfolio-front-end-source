@@ -50,7 +50,7 @@
                     {
                         name: 'Resume',
                         to: '/',
-                        iconName: 'mdi-file-document-box'
+                        iconName: 'mdi-file-document'
                     },
                     {
                         name: "Contact",

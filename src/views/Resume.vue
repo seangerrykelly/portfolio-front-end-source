@@ -3,6 +3,22 @@
         <v-layout></v-layout>
         <v-card flat>
             <v-card-title >
+                <b>Software Architect</b>
+                <v-card-subtitle> at Baron Biosystems</v-card-subtitle>
+                <v-spacer></v-spacer>
+                May 2020 - Aug. 2020
+            </v-card-title>
+            <v-card-text>
+                <v-list align="left">
+                    <li>Updated account management processes in <b>MongoDB</b> and <b>PHP</b> web applications to enable users to have multiple accounts</li>
+                    <li>Leveraged <b>REST APIs</b> to automatically sync activity dataq from Garmin devices into Baron's fitness analytics platform</li>
+                    <li>Incorporated an open source chat platform into web and mobile applications</li>
+                    <li>Designed front-end components and developed testing scripts</li>
+                </v-list>
+            </v-card-text>
+        </v-card>
+        <v-card flat>
+            <v-card-title >
                 <b>Software Engineer - Service Oriented Platform</b>
                 <v-card-subtitle> at PointClickCare</v-card-subtitle>
                 <v-spacer></v-spacer>
