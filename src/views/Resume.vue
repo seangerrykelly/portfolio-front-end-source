@@ -11,7 +11,7 @@
             <v-card-text>
                 <v-list align="left">
                     <li>Updated account management processes in <b>MongoDB</b> and <b>PHP</b> web applications to enable users to have multiple accounts</li>
-                    <li>Leveraged <b>REST APIs</b> to automatically sync activity dataq from Garmin devices into Baron's fitness analytics platform</li>
+                    <li>Leveraged <b>REST APIs</b> to automatically sync activity data from Garmin devices into Baron's fitness analytics platform</li>
                     <li>Incorporated an open source chat platform into web and mobile applications</li>
                     <li>Designed front-end components and developed testing scripts</li>
                 </v-list>

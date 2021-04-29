@@ -53,10 +53,15 @@
                         iconName: 'mdi-file-document'
                     },
                     {
+                        name: 'Projects',
+                        to: '/projects',
+                        iconName: 'mdi-hammer'
+                    },
+                    {
                         name: "Contact",
                         to: '/contact',
                         iconName: 'mdi-chat'
-                    }
+                    },
                 ],
             }
         }
