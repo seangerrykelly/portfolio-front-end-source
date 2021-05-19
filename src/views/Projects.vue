@@ -1,10 +1,18 @@
 <template>
     <v-content>
         <v-layout></v-layout>
-        <v-expansion-panels>
+        <v-expansion-panels focusable>
             <v-expansion-panel>
                 <v-expansion-panel-header>
-                    <b>Oscillate.cs - A script for Game Objects in Unity</b>
+                    <b>Twitch Clone</b>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content>
+                    
+                </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+                <v-expansion-panel-header>
+                    <b>Oscillate Objects - A script for Game Objects in Unity</b>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                     <v-card flat>
@@ -44,9 +52,6 @@
                     </v-card>
                 </v-expansion-panel-content>
             </v-expansion-panel>
-            <!-- <v-expansion-panel>
-                <v-expansion-panel-header></v-expansion-panel-header>
-            </v-expansion-panel> -->
         </v-expansion-panels>
     </v-content>
 </template>
