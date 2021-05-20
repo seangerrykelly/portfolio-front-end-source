@@ -37,25 +37,26 @@
                 //     Slide
                 // },
                 pages: [
-                    // {
-                    //     name: 'Home',
-                    //     to: '/',
-                    //     iconName: 'mdi-home'
-                    // },
+                    {
+                        name: 'Home',
+                        to: '/',
+                        iconName: 'mdi-home'
+                    },
                     // {
                     //     name: 'About Me',
                     //     to: '/about',
                     //     iconName: 'mdi-account'
                     // },
-                    {
-                        name: 'Resume',
-                        to: '/',
-                        iconName: 'mdi-file-document'
-                    },
+                    
                     {
                         name: 'Projects',
                         to: '/projects',
                         iconName: 'mdi-hammer'
+                    },
+                    {
+                        name: 'Resume',
+                        to: '/resume',
+                        iconName: 'mdi-file-document'
                     },
                     {
                         name: "Contact",

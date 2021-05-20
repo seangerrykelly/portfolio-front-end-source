@@ -1,18 +1,41 @@
 <template>
     <v-content>
         <v-layout></v-layout>
+        <v-card flat>
+            <v-card-text align="left">
+            Most of my projects can be found on my <a href="https://github.com/seangerrykelly">GitHub</a>. Below you can find documentation of projects that
+            I think are worthy of showcasing.
+            </v-card-text>
+        </v-card>
         <v-expansion-panels focusable>
             <v-expansion-panel>
                 <v-expansion-panel-header>
-                    <b>Twitch Clone</b>
+                    <p><b>Twitch Clone</b> - React app with a Node backend</p>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                    
+                    <v-card flat>
+                        <v-card-text align="left">
+                            This project was developed using the <b><a href="https://dev.twitch.tv/docs/api/">Twitch API</a></b>. I personally use Twitch quite a bit, and 
+                            as such, I wanted to work on something that I was interested in, while also furthering my skills with both <b>React</b> and <b>Node</b>.
+                            The React application allows users to browse the content available on Twitch, as well as watch live streams, VODs, and clips. The content
+                            displayed in the React application is obtained by sending requests to the Node backend environment, which subsequently sends requests to 
+                            the Twitch API. I have embedded a short video below that shows a short demonstration of what the application can do as of right now. 
+                        </v-card-text>
+                        <iframe src="https://drive.google.com/file/d/1ns37G8a_sgR6xyY4mKt5-mGEbTArsTH7/preview" width="640" height="480"></iframe>
+                        <v-card-text align="left">
+                            I am still actively working on this project, and plan to add many more features in the future, such as a user login, for example, which
+                            would allow for a much more personalized experience.
+                        </v-card-text>
+                        <v-card-text align="left">
+                            Please visit the repository on <b><a href="https://github.com/seangerrykelly/twitch-api">GitHub</a></b> for instructions on how to get the 
+                            application running in your local environment.
+                        </v-card-text>
+                    </v-card>
                 </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel>
                 <v-expansion-panel-header>
-                    <b>Oscillate Objects - A script for Game Objects in Unity</b>
+                    <p><b>Oscillating Objects</b> - C# Script for Game Objects in Unity</p>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
                     <v-card flat>
